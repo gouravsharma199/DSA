@@ -90,6 +90,8 @@ function stringCounter(str){
 
 // find the index of element 
 
+
+
 function loop(num){
 
     for(let i=0;i<num;i++){
