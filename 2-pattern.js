@@ -44,4 +44,31 @@ function toggle01(num){
     }
 }
 
-toggle01(5);
+// toggle01(5);
+
+// 1
+// 01
+// 010
+// 1010
+// 10101
+// 010101
+// 0101010
+
+function toggle010(num){
+   
+        let toggle = 1;
+    for(let i=0;i<num;i++){
+         let row = "";
+        for(let j=0;j<i+1;j++){
+            row += toggle
+            if(toggle == 1){
+                toggle = 0;
+            }else{
+                toggle = 1;
+            }
+        }
+        console.log(row);
+    }
+}
+
+// toggle010(5);
