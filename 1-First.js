@@ -88,9 +88,7 @@ function stringCounter(str){
 
 
 
-// find the index of element 
-
-
+// find the indexs of element 
 
 function loop(num){
 
@@ -103,5 +101,6 @@ function loop(num){
     }
 
 }
+
 
 // loop(5);
