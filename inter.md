@@ -23,3 +23,13 @@
   Input: "function sample(args) { const arr=[[[]; return arr; }"
   Output: FALSE
 
+3. var foo;
+ function foo(){ 
+    console.log("foo 1 function");
+} 
+foo = function(){ console.log("foo 2 fn"); 
+}
+function foo(){
+    console.log("foo3 funciton")
+    } 
+foo();

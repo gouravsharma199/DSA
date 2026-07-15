@@ -3,6 +3,7 @@
 // *****
 // *****
 // *****
+
 function star(num){
 for (let i =0;i<num;i++){
     let row = "";
@@ -25,9 +26,9 @@ for (let i =0;i<num;i++){
 // *****
 
 function secondStar(num){
- for (let i =0;i<num;i++){
+ for (let i=0;i<num;i++){
     let row = "";
-    for (let j=0;j<=i;j++){   //j<i+1 ==== j<=i 
+    for (let j=0;j<i+1;j++){   //j<i+1 ==== j<=i 
         row += "*";
     }   
      console.log(row);
@@ -39,6 +40,10 @@ function secondStar(num){
 
 
 
+
+// i === row
+// j === column
+
 // 1
 // 12
 // 123
@@ -46,17 +51,22 @@ function secondStar(num){
 // 12345
 
 function numberPrint(num){
- for (let i =0;i<num;i++){
-    let row = "";
-    for (let j=0;j<=i;j++){   
-        row += j+1;
-    }   
-     console.log(row);
-}
+    for (let i =0;i<num;i++){
+        let row = "";
+
+        for (let j=0;j<=i;j++){   
+            row += j+1;
+        }   
+        console.log(row);
+    }
 
 }
 
 // numberPrint(5);
+
+
+
+
 
 // 1
 // 22
@@ -65,17 +75,21 @@ function numberPrint(num){
 // 55555
 
 function secondNumberPrint(num){
- for (let i =0;i<num;i++){
-    let row = "";
-    for (let j=0;j<=i;j++){   
-        row += i+1;
-    }   
-     console.log(row);
-}
+    for (let i =0;i<num;i++){
+        let row = "";
+
+        for (let j=0;j<i+1;j++){   
+            row += i+1;
+        }   
+        console.log(row);
+    }
 
 }
 
 // secondNumberPrint(8);
+
+
+
 
 
 // 12345
@@ -87,14 +101,16 @@ function secondNumberPrint(num){
 function thirdNumPrint(num){
  for (let i =0;i<num;i++){
     let row = "";
+
     for (let j=0;j<num-i;j++){   
         row += j+1;
     }   
-     console.log(row);
+    console.log(row);
 }
 }
 
 // thirdNumPrint(5);
+
 
 
 
@@ -104,13 +120,14 @@ function thirdNumPrint(num){
 // **
 // *
 function thirdStarPrint(num){
- for (let i =0;i<num;i++){
-    let row = "";
-    for (let j=0;j<num-i;j++){   
-        row += "*";
-    }   
-     console.log(row);
-}
+    for (let i =0;i<num;i++){
+        let row = "";
+
+        for (let j=0;j<num-i;j++){   
+            row += "*";
+        }   
+        console.log(row);
+    }
 }
 
 // thirdStarPrint(5); 

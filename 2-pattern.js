@@ -12,16 +12,18 @@ function newStar(n){
         let row = "";
         for(let j=0;j<n-(i+1);j++){
             row = row+" ";
-            
         }
         for(let k=0;k<i+1;k++){
-                row = row+"*";
-            }
+            row = row+"*";
+        }
         console.log(row) ;
     
     }
 }
 // newStar(5);
+
+
+
 
 // 1
 // 10
@@ -46,6 +48,10 @@ function toggle01(num){
 
 // toggle01(5);
 
+
+
+
+
 // 1
 // 01
 // 010
@@ -59,6 +65,7 @@ function toggle010(num){
         let toggle = 1;
     for(let i=0;i<num;i++){
          let row = "";
+         
         for(let j=0;j<i+1;j++){
             row += toggle
             if(toggle == 1){
