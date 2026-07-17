@@ -22,4 +22,4 @@ var maxProfit = function(prices) {
     return maxProfit;
 };
 let prices = [7,1,5,3,6,4]
-maxProfit(prices);
+console.log(maxProfit(prices));
