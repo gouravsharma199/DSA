@@ -12,3 +12,6 @@ function reverseString(s){
 
 const s = ["h","e","l","l","o","w"]
 console.log(reverseString(s));
+
+
+// also can we solve by 2 pointer string
